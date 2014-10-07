@@ -991,7 +991,7 @@ typedef struct
 {
     self.rightView.hidden = YES;
     self.leftView.hidden = YES;
-    [self removeViewController:self.leftViewController];
+//    [self removeViewController:self.leftViewController];
     [self removeViewController:self.rightViewController];
     [self.frontView setUserInteractionForContainedViewEnabled:YES];
 }
